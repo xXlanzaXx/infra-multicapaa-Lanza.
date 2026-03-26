@@ -5,7 +5,7 @@ services:
   db:
     image: mariadb:10.11
     environment:
-      MYSQL_ROOT_PASSWORD: wrongpass
+      MYSQL_ROOT_PASSWORD: rootpass
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wpuser
       MYSQL_PASSWORD: wppass
